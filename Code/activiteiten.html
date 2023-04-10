@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:ital@0;1&display=swap" rel="stylesheet">
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>ReisIdeez</title>
+
+    <style>
+        .myUL{
+            justify-content: center;
+            margin-top: 200px;
+            width: 80%;
+            margin-left: 10%;
+            background: rgba(0, 0, 0, 0.503);
+        }
+
+        .links{
+            justify-content: flex-start;
+            flex-direction: row;
+        }
+
+        .rechts{
+            justify-content: flex-start;
+            flex-direction: row-reverse;
+        }
+
+        .naarlinks{
+            flex-direction: row;
+        }
+
+        body{
+            background-image: url(css/DSC_4659-scaled.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .accommodatieTitle > h2{
+            color: white !important;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="accommodaties.html">Accommodaties</a></li>
+                <li><a href="activiteiten.html">Activiteiten</a></li>
+            </ul>
+        </nav>
+    </header> 
+    
+
+    <ul class="myUL">
+        <li class="results links">
+            <div class="accommodatie">
+                <button class="likeButton">
+                    <img class="likeIcon" src="/css/heart.png" alt="">
+                </button>
+                <div class="accommodatieText">
+                    <a class="accommodatieTitle" href="ACCChina.html"><h2>Activiteiten in China</h2></a>
+                </div>
+                <img src="/css/chinaACC.jpg" alt="foto van de accommodatie">
+            </div>
+        </li>
+
+        <li class="results rechts">
+            <div class="accommodatie naarlinks">
+                <button class="likeButton">
+                    <img class="likeIcon" src="/css/heart.png" alt="">
+                </button>
+                <div class="accommodatieText">
+                    <a class="accommodatieTitle" href="ACCFrankrijk.html"><h2>Activiteiten in Frankrijk</h2></a>
+                </div>
+                <img src="/css/Frankrijk.jpg" alt="foto van de accommodatie">
+            </div>
+        </li>
+
+        <li class="results links">
+            <div class="accommodatie">
+                <button class="likeButton">
+                    <img class="likeIcon" src="/css/heart.png" alt="">
+                </button>
+                <div class="accommodatieText">
+                    <a class="accommodatieTitle" href="ACCItalie.html"><h2>Activiteiten in Italië</h2></a>
+                </div>
+                <img src="/css/italie.png" alt="foto van de accommodatie">
+            </div>
+        </li>
+
+        <li class="results rechts">
+            <div class="accommodatie naarlinks">
+                <button class="likeButton">
+                    <img class="likeIcon" src="/css/heart.png" alt="">
+                </button>
+                <div class="accommodatieText">
+                    <a class="accommodatieTitle" href="ACCspanje.html"><h2>Activiteiten in Spanje</h2></a>
+                </div>
+                <img src="/css/spanje.jpg" alt="foto van de accommodatie">
+            </div>
+        </li>
+
+        <li class="results links">
+            <div class="accommodatie">
+                <button class="likeButton">
+                    <img class="likeIcon" src="/css/heart.png" alt="">
+                </button>
+                <div class="accommodatieText">
+                    <a class="accommodatieTitle" href="ACCThailand.html"><h2>Activiteiten in Thailand</h2></a>
+                </div>
+                <img src="/css/thailand.jpg" alt="foto van de accommodatie">
+            </div>
+        </li>
+
+        <li class="results rechts">
+            <div class="accommodatie naarlinks">
+                <button class="likeButton">
+                    <img class="likeIcon" src="/css/heart.png" alt="">
+                </button>
+                <div class="accommodatieText">
+                    <a class="accommodatieTitle" href="ACCVS.html"><h2>Activiteiten in Verenigde Staten</h2></a>
+                </div>
+                <img src="/css/usa.jpg" alt="foto van de accommodatie">
+            </div>
+        </li>
+    </ul>
+</body>
+</html>
